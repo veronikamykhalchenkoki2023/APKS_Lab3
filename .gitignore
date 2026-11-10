@@ -1,0 +1,10 @@
+
+# GHDL generated files
+*.cf
+
+# Simulation waveform data
+simulation/*.vcd
+
+# Temporary files
+*.tmp
+*.bak
