@@ -1,0 +1,39 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run UART Simulation",
+            "type": "process",
+            "command": "cmd.exe",
+            "args": [
+                "/d",
+                "/c",
+                "${workspaceFolder}\\run_uart.bat"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Open UART Waveforms",
+            "type": "process",
+            "command": "C:\\Users\\Admin\\Tools\\gtkwave-3.3.90-bin-win64\\gtkwave64\\bin\\gtkwave.exe",
+           
+            "args": [
+            "${workspaceFolder}\\simulation\\uart.vcd",
+            "${workspaceFolder}\\simulation\\uart.gtkw"
+            ],
+
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

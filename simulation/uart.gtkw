@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.90 (w)1999-2018 BSI
+[*] Sat Nov 07 12:11:23 2026
+[*]
+[dumpfile] "C:\Users\Admin\OneDrive\Робочий стіл\КІ\АПКС\лабораторні\lab 3\simulation\uart.vcd"
+[dumpfile_mtime] "Sat Nov 07 12:00:46 2026"
+[dumpfile_size] 1457587
+[savefile] "C:\Users\Admin\OneDrive\Робочий стіл\КІ\АПКС\лабораторні\lab 3\simulation\uart.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 394 -91
+*-36.864063 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@22
+tb_uart.rx_data[7:0]
+@28
+tb_uart.rx_done
+tb_uart.rx_error
+tb_uart.tx_busy
+@22
+tb_uart.tx_data[7:0]
+@28
+tb_uart.tx_serial
+tb_uart.tx_start
+[pattern_trace] 1
+[pattern_trace] 0
